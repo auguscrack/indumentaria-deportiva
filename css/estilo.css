@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%; }
+
+.titulo {
+  text-align: center;
+  color: #1a2583;
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+h1 {
+  text-align: center;
+  color: #1a2583;
+  margin: 20px;
+  padding: 20px; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 75px;
+  min-width: 100%; }
+
+.header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo {
+  width: 60%; }
+
+/* contenedores inicio*/
+.vendidosContenedor {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  gap: 15px; }
+
+.vendidosContenedorDos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  gap: 15px; }
+
+.link {
+  border: 3px black solid;
+  border-radius: 25px; }
+
+/*estilos al navBar*/
+.linkNav {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 20px; }
+  .linkNav:hover {
+    color: blue; }
+
+.nav {
+  background-color: black;
+  text-align: center;
+  height: 100%;
+  width: 100%; }
+
+.navbar-toggler {
+  background-color: white;
+  border-color: blue; }
+
+.fotoRemeras {
+  width: 350px;
+  padding: 30px; }
+  .fotoRemeras:hover {
+    transform: scale(1.1); }
+
+/*tienda*/
+.tienda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 10px solid black;
+  border-radius: 30px;
+  margin: 10px;
+  background-color: white;
+  gap: 25px; }
+
+p {
+  padding: 20px;
+  color: #14438E; }
+
+main div p {
+  font-size: 16px;
+  color: #14438E; }
+
+.tiendaFlex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+.botonTienda {
+  border: 4px solid black;
+  border-radius: 55px;
+  padding: 15px;
+  background-color: #14438E;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+/*sobre nosotros*/
+.flexMain {
+  min-height: 425px;
+  display: flex;
+  justify-content: flex-start; }
+  .flexMain p {
+    color: #CF1259;
+    font-size: 20px;
+    padding: 0;
+    margin-left: 10px; }
+
+.ratio {
+  border: 10px #CF1259 solid;
+  border-radius: 30px;
+  margin: 20px;
+  margin-right: 20px; }
+
+.contenedorNosotros {
+  display: flex;
+  justify-content: center; }
+
+/* contacto*/
+#tituloContacto {
+  text-align: center;
+  color: #2310ae;
+  margin: 30px; }
+
+form {
+  width: 400px;
+  margin: auto;
+  background: #171A21;
+  padding: 15px 25px;
+  margin-top: 30px;
+  border-radius: 10px; }
+
+input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 17px;
+  border: none; }
+
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  font-size: 17px;
+  border: none;
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%; }
+
+#boton {
+  background: #0A014F;
+  color: whitesmoke;
+  padding: 25px; }
+  #boton:hover {
+    cursor: pointer; }
+
+/* flecha arriba*/
+.flecha {
+  position: fixed;
+  bottom: 70px;
+  right: 23px;
+  z-index: 300; }
+  .flecha:hover {
+    transform: scale(1.1); }
+
+.flecha img {
+  width: 90px;
+  border: 10px #1B9AAA solid;
+  border-radius: 60px; }
+
+/* orden de los iconos del footer */
+.footer {
+  padding: 50px;
+  background-color: black;
+  height: 150px;
+  margin-top: 50px;
+  min-height: 100%;
+  min-width: 100%; }
+
+.linkFooter {
+  text-decoration: none;
+  border: white 5px solid;
+  border-radius: 40px;
+  background-color: white; }
+  .linkFooter:hover {
+    transform: scale(1.1); }
+
+.redesSociales {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly; }
+
+.imgRedSocial {
+  width: 40px;
+  margin: 15px; }
+
+/* media querie*/
+@media (max-width: 500px) {
+  form {
+    width: 75%; } }
+
+@media (min-width: 300px) and (max-width: 1250px) {
+  .contenedorNosotros {
+    flex-wrap: wrap; } }
+
+@media (min-width: 300px) and (max-width: 550px) {
+  .flecha img {
+    width: 58px;
+    border: 10px #1B9AAA solid;
+    border-radius: 60px; }
+  .logo {
+    width: 55px; }
+  .imgRedSocial {
+    width: 20px;
+    margin: 10px; }
+  .fotoRemeras {
+    width: 300px;
+    padding: 30px; }
+  .tienda {
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin: 15px;
+    background-color: white;
+    gap: 15px; }
+  .vendidosContenedor a {
+    margin: 15px; }
+  .vendidosContenedorDos a {
+    margin: 15px; } }

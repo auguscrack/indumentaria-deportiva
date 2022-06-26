@@ -1,0 +1,22 @@
+/*sobre nosotros*/
+.flexMain {
+	min-height: 425px;
+	display: flex;
+	justify-content: flex-start;
+	p {
+		color: #CF1259;
+		font-size: $espaciado;
+        padding: 0;
+        margin-left: 10px;
+	}
+}
+.ratio {
+	border: 10px #CF1259 solid;
+	border-radius: 30px;
+	margin: $espaciado;
+	margin-right: $espaciado;
+}
+.contenedorNosotros {
+	display: flex;
+	justify-content: center;
+}

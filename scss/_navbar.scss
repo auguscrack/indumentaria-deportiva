@@ -1,0 +1,21 @@
+/*estilos al navBar*/
+.linkNav {
+	color: white;
+	font-size: 1.3rem;
+	text-decoration: none;
+	padding: $espaciado;
+	&:hover {
+		color: blue;
+	}
+}
+.nav {
+	background-color: $colorNegro;
+	text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.navbar-toggler {
+	background-color: white;
+	border-color: blue;
+}
+

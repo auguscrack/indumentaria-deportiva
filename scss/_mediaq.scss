@@ -1,0 +1,60 @@
+/* media querie*/
+
+@media (max-width: 500px) {
+    form {
+        width: 75%;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width:1250px) {
+    .contenedorNosotros{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (min-width: 300px) and (max-width:550px) {
+    .flecha {
+        img {
+            width: 58px;
+            border: 10px #1B9AAA solid;
+            border-radius: 60px;
+        }
+    }
+
+    .logo {
+        width: 55px;
+    }
+
+    .imgRedSocial {
+        width: $espaciado;
+        margin: 10px;
+    }
+
+    .fotoRemeras {
+        width: 300px;
+        padding: 30px;
+    }
+
+    .tienda {
+        padding: 15px;
+        border: 3px solid $colorNegro;
+        border-radius: 30px;
+        margin: 15px;
+        background-color: white;
+        gap: 15px;
+    }
+
+    .vendidosContenedor {
+        a {
+            margin: 15px;
+        }
+    }
+
+    .vendidosContenedorDos {
+        a {
+            margin: 15px;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,700&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+
+.titulo {
+    text-align: center;
+    color: #1a2583;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+h1 {
+    text-align: center;
+    color: #1a2583;
+    margin: $espaciado;
+    padding: $espaciado
+}
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+    min-height: 75px;
+    min-width: 100%;
+}
+
+
+.header {
+    background-color: $colorNegro;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.logo {
+	width: 60%;
+}
+/* contenedores inicio*/
+.vendidosContenedor {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding-top: $espaciado;
+	margin-bottom: 30px;
+	gap: 15px;
+}
+.vendidosContenedorDos {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding-top: $espaciado;
+	margin-bottom: 30px;
+	gap: 15px;
+}
+.link {
+    border:3px $colorNegro solid ;
+    border-radius: 25px;
+}

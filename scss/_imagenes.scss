@@ -1,0 +1,7 @@
+.fotoRemeras {
+	width: 350px;
+	padding: 30px;
+	&:hover {
+		transform: scale($escalar);
+	}
+}

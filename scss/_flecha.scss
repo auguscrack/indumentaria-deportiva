@@ -1,0 +1,14 @@
+/* flecha arriba*/
+.flecha {
+    position: fixed;
+    bottom: 70px;
+    right: 23px;
+    z-index: 300; 
+    &:hover {
+        transform: scale($escalar);}
+    }
+.flecha img{
+    width: 90px;
+    border: 10px #1B9AAA solid;
+    border-radius: 60px;
+}
